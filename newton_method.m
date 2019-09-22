@@ -18,7 +18,7 @@ function [out_x,out_y] = newton_method(f,fp,x0,tol)
 %% Output:	out_x approx of x
 %%          out_y f(xhat)
 %% 
-%% Syntax:	KiltyNewton(f,fp,x0, tol)
+%% Syntax:   Newton(f,fp,x0, tol)
 %%
 format long e
 fc = f(x0);
