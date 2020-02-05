@@ -1,4 +1,9 @@
-function fixedPoint(phi, guess, tol)
+%{
+fixed point function
+oct 1 2019
+%}
+
+function fixed_point(phi, guess, tol)
 
 x = guess;
 px = phi(x);
